@@ -1,0 +1,121 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Portrait Mobile */
+@media screen and (max-width: 850px){
+	.cart-busket {    
+		width: 17%;
+		margin: 0px;
+		padding: 0px;
+		float: left;
+		text-align: center;
+		font-size: 25px;
+	}
+	#main-menu {
+		float: left;
+	}
+
+	#navigation .col-sm-3
+	{
+		width: 76%;
+		float: left;
+	}
+	
+	.home-search {
+		right: 15px;
+		top: 80px;
+	}
+	
+	/* 	Sticky Bar Height */
+	#masthead.sticky {
+        position: fixed !important;
+		height: 60px !important;		
+	}
+	
+	/* 	Navbar hamburger icon */
+	#masthead.sticky #navigation .navbar-header .navbar-toggle {
+		margin-top: 15px !important;
+	}
+	/* search icon	 */
+	#masthead.sticky #navigation .cart-busket .home-search-btn {
+		top: -10px !important;
+	}
+	
+	/* 	Logo Size*/
+	#masthead.sticky .logo-wrapper img {
+    	height: 55px !important;
+	}
+	
+}
+/* Landscape Mobile */
+@media screen and (min-width: 480px) and (max-width:700px) {
+	
+    /* 	Sticky Bar Height */
+	#masthead.sticky {
+		height: 43px !important;
+		top: -4px;
+        position: relative;
+    }
+	
+	/* 	Logo Size*/
+	#masthead.sticky h1.logo-wrapper {
+		top: -2px ! important;
+		position: absolute;
+	}
+	/* search icon	 */
+	#masthead.sticky #navigation .cart-busket .home-search-btn {
+        top: -20px !important;
+    }
+	/* 	Navbar hamburger icon */
+	#masthead.sticky #navigation .navbar-header .navbar-toggle {
+        margin-top: 4px !important;
+    }
+}
+@media screen and (max-width: 479px) {
+    .logo-wrapper img {
+        width: 150px ! important;
+		position:relative;
+        top: -12px;
+    }
+	#masthead.sticky .logo-wrapper img {
+		top: 0px !important;
+	}
+	#navigation .navbar-header .navbar-toggle {
+		margin-top: 13px !important;
+	}
+	.cart-busket .home-search-btn {
+		top: -10px;
+	}
+	header#masthead {
+		height: 60px;
+	}
+	
+}
+@media screen and (min-width: 1100px) {
+	span.home-search-btn {
+		font-size: 22px;
+		top: 9px;
+	}
+	#masthead.sticky span.home-search-btn {
+		top: -10px;
+	}
+}
+/* Desktop */
+.home-search #searchform input {
+	height: 40px;
+}
+
+.entry-content > .col-md-12 > p {
+    margin: 0px;
+}
+/* Search icon color */
+.cart-busket .home-search-btn a {
+	color:#000000 !important;
+}
+/* Hamburdger menu color */
+.navbar-toggle .icon-bar {
+	background:#000000 !important;
+}
+#navigation .navbar-header .navbar-toggle {
+	border-color: transparent !important;
+}</style>
+<!-- end Simple Custom CSS and JS -->

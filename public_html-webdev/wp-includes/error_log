@@ -1,0 +1,10 @@
+[20-Nov-2019 09:27:05 UTC] PHP Notice:  Use of undefined constant ABSPATH - assumed 'ABSPATH' in /home/hootanr/public_html/wp-includes/functions.php on line 8
+[20-Nov-2019 09:27:05 UTC] PHP Notice:  Use of undefined constant WPINC - assumed 'WPINC' in /home/hootanr/public_html/wp-includes/functions.php on line 8
+[20-Nov-2019 09:27:05 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/hootanr/public_html/wp-includes/functions.php on line 8
+[20-Nov-2019 09:27:05 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/hootanr/public_html/wp-includes/functions.php on line 8
+[09-Feb-2020 00:40:52 UTC] PHP Notice:  Use of undefined constant ABSPATH - assumed 'ABSPATH' in /home/hootanr/public_html/wp-includes/functions.php on line 8
+[09-Feb-2020 00:40:52 UTC] PHP Notice:  Use of undefined constant WPINC - assumed 'WPINC' in /home/hootanr/public_html/wp-includes/functions.php on line 8
+[09-Feb-2020 00:40:52 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/hootanr/public_html/wp-includes/functions.php on line 8
+[09-Feb-2020 00:40:52 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/hootanr/public_html/wp-includes/functions.php on line 8
+[03-Aug-2020 14:08:14 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/hootanr/public_html/wp-includes/locale.php on line 10
+[03-Aug-2020 14:41:02 UTC] PHP Fatal error:  Class 'Walker' not found in /home/hootanr/public_html/wp-includes/class-walker-nav-menu.php on line 17
